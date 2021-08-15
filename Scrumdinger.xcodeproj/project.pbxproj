@@ -27,6 +27,7 @@
 		B6AA5CA026C571B200CDCB83 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA5C9F26C571B200CDCB83 /* ScrumData.swift */; };
 		B6AA5CA226C9267100CDCB83 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA5CA126C9267100CDCB83 /* MeetingTimerView.swift */; };
 		B6AA5CA426C95B5600CDCB83 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA5CA326C95B5600CDCB83 /* SpeechRecognizer.swift */; };
+		B6AA5CA626C961FB00CDCB83 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA5CA526C961FB00CDCB83 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B6AA5C9F26C571B200CDCB83 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		B6AA5CA126C9267100CDCB83 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		B6AA5CA326C95B5600CDCB83 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		B6AA5CA526C961FB00CDCB83 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				B6AA5C9C26C56C9800CDCB83 /* Resourses */,
 				B64EDCE626C25FFE00AD7100 /* Models */,
 				B64EDCD726C1AB5700AD7100 /* ScrumdingerApp.swift */,
+				B6AA5CA526C961FB00CDCB83 /* HistoryView.swift */,
 				B64EDCD926C1AB5700AD7100 /* MeetingView.swift */,
 				B6AA5CA126C9267100CDCB83 /* MeetingTimerView.swift */,
 				B64EDCF926C3F6FB00AD7100 /* MeetingFooterView.swift */,
@@ -210,6 +213,7 @@
 				B64EDCF226C2DD3200AD7100 /* EditView.swift in Sources */,
 				B64EDCF426C3BC7000AD7100 /* MeetingHeaderView.swift in Sources */,
 				B6AA5CA026C571B200CDCB83 /* ScrumData.swift in Sources */,
+				B6AA5CA626C961FB00CDCB83 /* HistoryView.swift in Sources */,
 				B6AA5CA226C9267100CDCB83 /* MeetingTimerView.swift in Sources */,
 				B64EDCEA26C2613100AD7100 /* Color+Codable.swift in Sources */,
 				B64EDCFA26C3F6FB00AD7100 /* MeetingFooterView.swift in Sources */,
@@ -349,6 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = JKYU7W8LBP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -370,6 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = JKYU7W8LBP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

@@ -35,6 +35,7 @@ struct SpeakerArc: Shape {
 struct MeetingTimerView: View {
     var color: Color
     let speakers: [ScrumTimer.Speaker]
+    let isRecording: Bool
     private var currentSpeaker: String {
         let speaker = speakers.first(where: {!$0.isCompleted})?.name ?? "someone"
         return speaker
@@ -48,6 +49,10 @@ struct MeetingTimerView: View {
                 Text(currentSpeaker)
                     .font(.title)
                 Text("is speaking")
+                Image(systemName: isRecording ? "mic" : "mic.slash")
+                    .font(.title)
+                    .padding([.top])
+                    .accessibilityLabel(isRecording ? "with transcription" : "without transcription")
             }
             .accessibilityElement(children: .combine)
             .foregroundColor(color.accessibleFontColor)
@@ -68,6 +73,6 @@ struct MeetingTimerView: View {
 struct MeetingTImerView_Previews: PreviewProvider {
     @State static var speakers = [ScrumTimer.Speaker(name: "Kim", isCompleted: true), ScrumTimer.Speaker(name: "Bill", isCompleted: false)]
     static var previews: some View {
-        MeetingTimerView(color: Color("Design"), speakers: speakers)
+        MeetingTimerView(color: Color("Design"), speakers: speakers, isRecording: true)
     }
 }
